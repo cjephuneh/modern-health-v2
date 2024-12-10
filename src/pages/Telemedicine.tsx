@@ -26,7 +26,7 @@ const Telemedicine = () => {
                   { icon: Video, title: "HD Video Calls", desc: "Low-bandwidth optimized" },
                   { icon: MessageSquare, title: "Secure Chat", desc: "End-to-end encryption" },
                   { icon: Stethoscope, title: "Virtual Exams", desc: "Interactive consultations" },
-                  { icon: FileText, title: "Digital Records", desc: "NHIF integrated" }
+                  { icon: FileText, title: "Digital Records", desc: "SHA integrated" }
                 ].map((item, index) => (
                   <motion.div
                     key={index}
