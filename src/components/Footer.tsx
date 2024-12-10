@@ -1,6 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { Brain, Facebook, Twitter, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import {  Facebook, Twitter, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import footerImage from '../../assests/footer.jpg';
 
 const Footer = () => {
   return (
@@ -9,8 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2 mb-6">
-              <Brain className="h-6 w-6 sm:h-8 sm:w-8 text-indigo-400" />
-              <span className="font-bold text-lg sm:text-xl">Envisage Multi Media</span>
+              <img src={footerImage} alt="Envisage Multi Media" className="h-6 w-6 sm:h-8 sm:w-8" />
             </div>
             <p className="text-gray-400 text-sm sm:text-base">
               Transforming healthcare delivery through innovative technology solutions.

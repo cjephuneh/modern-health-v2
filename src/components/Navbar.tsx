@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Brain, Activity, Users, Building2, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logoImage from '../../assests/logo.png';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,8 +18,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <Brain className="h-6 w-6 sm:h-8 sm:w-8 text-indigo-600" />
-              <span className="font-bold text-base sm:text-xl">Envisage Multi Media</span>
+            <img src={logoImage} alt="Envisage Multi Media" className="h-6 w-6 sm:h-8 sm:w-8" />
             </Link>
           </div>
 
