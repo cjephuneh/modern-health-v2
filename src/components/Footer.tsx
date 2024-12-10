@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2 mb-6">
-              <img src={footerImage} alt="Envisage Multi Media" className="h-6 w-6 sm:h-8 sm:w-8" />
+              <img src={footerImage} alt="Envisage Multi Media" className="h-10 w-10 sm:h-12 sm:w-12" />
             </div>
             <p className="text-gray-400 text-sm sm:text-base">
               Transforming healthcare delivery through innovative technology solutions.
