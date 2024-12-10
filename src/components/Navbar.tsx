@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-            <img src={logoImage} alt="Envisage Multi Media" className="h-16 w-64 sm:h-20 sm:w-10  max-w-full" />
+            <img src={logoImage} alt="Envisage Multi Media" className="h-12 w-48 sm:h-16 sm:w-64 max-w-full" />
             </Link>
           </div>
 
