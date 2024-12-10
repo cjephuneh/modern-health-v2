@@ -101,9 +101,9 @@ const Footer = () => {
           </div>
         </div>
         
-        {/* <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400 text-sm">&copy; 2024 Envisage Multi Media. All rights reserved.</p>
-        </div> */}
+        <div className="border-t border-gray-800 mt-12 pt-8 text-center">
+          <p className="text-gray-400 text-sm">&copy; 2024 Virtual Communication Limited. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   );
