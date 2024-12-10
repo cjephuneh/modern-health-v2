@@ -2,7 +2,7 @@ import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Brain, Activity, Users, Building2, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import logoImage from '../../assests/logo.png';
+import logoImage from '../../assests/Screenshot_2024-12-10_144434-removebg-preview (1).png';
 
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-            <img src={logoImage} alt="Envisage Multi Media" className="h-16 w-64 sm:h-20 sm:w-20" />
+            <img src={logoImage} alt="Envisage Multi Media" className="h-16 w-64 sm:h-20 sm:w-auto max-w-full" />
             </Link>
           </div>
 
