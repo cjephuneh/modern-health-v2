@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Stats from './Stats';
+// import Stats from './Stats';
 import Features from './Features';
 import CallToAction from './CallToAction';
 import { ArrowRight } from 'lucide-react';
@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
 
           <div className="relative z-10">
-            <Stats />
+            {/* <Stats /> */}
             <Features />
             <CallToAction />
           </div>
