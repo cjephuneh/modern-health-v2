@@ -3,7 +3,7 @@ import Boss from '../../assests/boss.jpg';
 
 function About() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-gray-50 rounded-lg shadow-lg">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-gray-50 mt-16 rounded-lg shadow-lg">
       <h1 className="text-4xl font-bold text-center text-indigo-600 mb-6">Welcome To Afyatele</h1>
       <h2 className="text-3xl font-semibold text-center text-gray-800 mb-4">The Message From CEO</h2>
       <h3 className="text-2xl font-medium text-center text-gray-700 mb-4">A Visionary in Medical Insurance Administration Outsourcing</h3>

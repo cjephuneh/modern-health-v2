@@ -25,32 +25,40 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
             <Link
               to="/claims"
-              className="flex items-center space-x-1 text-gray-700 hover:text-indigo-600 transition-colors text-sm lg:text-base"
+              className="flex items-center space-x-1 text-gray-700 hover:bg-blue-600 p-2 rounded hover:text-white transition-colors text-sm lg:text-base"
             >
               <Activity className="h-4 w-4 lg:h-5 lg:w-5" />
               <span>Claims Management</span>
             </Link>
             <Link
               to="/support"
-              className="flex items-center space-x-1 text-gray-700 hover:text-indigo-600 transition-colors text-sm lg:text-base"
+              className="flex items-center space-x-1 text-gray-700 hover:bg-blue-600 p-2 rounded hover:text-white transition-colors text-sm lg:text-base"
             >
               <Users className="h-4 w-4 lg:h-5 lg:w-5" />
               <span>Member Support</span>
             </Link>
             <Link
               to="/telemedicine"
-              className="flex items-center space-x-1 text-gray-700 hover:text-indigo-600 transition-colors text-sm lg:text-base"
+              className="flex items-center space-x-1 text-gray-700 hover:bg-blue-600 p-2 rounded hover:text-white transition-colors text-sm lg:text-base"
             >
               <Brain className="h-4 w-4 lg:h-5 lg:w-5" />
               <span>Telemedicine</span>
             </Link>
             <Link
               to="/hospital"
-              className="flex items-center space-x-1 text-gray-700 hover:text-indigo-600 transition-colors text-sm lg:text-base"
+              className="flex items-center space-x-1 text-gray-700 hover:bg-blue-600 p-2 rounded hover:text-white transition-colors text-sm lg:text-base"
             >
               <Building2 className="h-4 w-4 lg:h-5 lg:w-5" />
               <span>Hospital Management</span>
             </Link>
+            <Link 
+              to="/about" 
+              className="flex items-center space-x-1 text-gray-700 hover:bg-blue-600 p-2 rounded hover:text-white transition-colors text-sm lg:text-base"
+            >
+              <Building2 className="h-4 w-4 lg:h-5 lg:w-5" />
+              <span>About Us</span>
+            </Link>
+            
           </div>
 
           <div className="md:hidden flex items-center">
