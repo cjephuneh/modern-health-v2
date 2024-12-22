@@ -1,59 +1,56 @@
-// import React from 'react';
-import { motion } from 'framer-motion';
-import { Video, MessageSquare, Stethoscope, FileText } from 'lucide-react';
+import Boss from '../../assests/boss.jpg'
 
-const Telemedicine = () => {
+function About() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 pt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <h1 className="text-4xl font-bold text-gray-900 mb-8">Telemedicine Platform</h1>
-          
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <p className="text-lg text-gray-600 mb-6">
-                Connect patients with healthcare providers through our state-of-the-art
-                telemedicine platform. Designed for Kenya's unique healthcare landscape,
-                our solution ensures quality care reaches every corner of the nation.
-              </p>
-              
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  { icon: Video, title: "HD Video Calls", desc: "Low-bandwidth optimized" },
-                  { icon: MessageSquare, title: "Secure Chat", desc: "End-to-end encryption" },
-                  { icon: Stethoscope, title: "Virtual Exams", desc: "Interactive consultations" },
-                  { icon: FileText, title: "Digital Records", desc: "SHA integrated" }
-                ].map((item, index) => (
-                  <motion.div
-                    key={index}
-                    whileHover={{ scale: 1.05 }}
-                    className="bg-white p-4 rounded-lg shadow-md"
-                  >
-                    <item.icon className="h-6 w-6 text-purple-600 mb-2" />
-                    <h3 className="font-semibold">{item.title}</h3>
-                    <p className="text-sm text-gray-600">{item.desc}</p>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-            
-            <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                alt="Telemedicine"
-                className="rounded-lg shadow-2xl"
-              />
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-transparent rounded-lg"></div>
-            </div>
-          </div>
-        </motion.div>
-      </div>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h1 className="text-3xl font-bold mb-4">Welcome To Afyatele</h1>
+      <h2 className="text-2xl font-semibold mb-2">The Message From CEO</h2>
+      <h3 className="text-xl font-medium mb-4">A Visionary in Medical Insurance Administration Outsourcing</h3>
+      <img src={Boss} alt="CEO Aggrey Anditi" className="w-full h-auto mb-4" />
+      <p className="mb-4">
+        <strong>Name:</strong> Aggrey Anditi<br />
+        <strong>Title:</strong> CEO and Founder, Virtual Communication & Consulting
+      </p>
+      <h4 className="font-semibold mb-2">Background and Expertise:</h4>
+      <p className="mb-4">
+        A highly accomplished healthcare Technology executive with a deep-rooted passion for improving patient care and
+        streamlining healthcare processes. With a wealth of experience in both clinical medicine and
+        healthcare administration, with a unique perspective on the challenges facing the healthcare
+        industry.
+      </p>
+      <h4 className="font-semibold mb-2">Vision for Afyatele Solutions:</h4>
+      <p className="mb-4">
+        Founded Afyatele Medical Insurance Administration Outsourcing solutions with a vision
+        to revolutionize medical insurance administration through innovative technology and expert
+        services. We recognize the potential for significant cost savings and improved efficiency by
+        outsourcing non-core functions to a specialized provider. Virtual Afyatele Solutions is committed to
+        delivering exceptional value to its clients by:
+      </p>
+      <ul className="list-disc list-inside mb-4">
+        <li>Streamlining Operations: Automating manual processes, reducing administrative burdens, and improving operational efficiency.</li>
+        <li>Enhancing Accuracy: Implementing robust quality control measures to minimize errors and ensure accurate claims processing.</li>
+        <li>Improving Patient Experience: Providing timely and accurate information to patients, simplifying the claims process, and addressing inquiries promptly.</li>
+        <li>Leveraging Technology: Utilizing advanced technology solutions to optimize workflows, improve data analytics, and enhance security.</li>
+      </ul>
+      <h4 className="font-semibold mb-2">Leadership Style and Philosophy:</h4>
+      <p className="mb-4">
+        A dynamic and inspiring leader who fosters a culture of innovation, collaboration, and excellence.
+        He is passionate about empowering his team and creating a positive work environment. His
+        leadership philosophy is centered on the following principles:
+      </p>
+      <ul className="list-disc list-inside mb-4">
+        <li>Patient-Centric Approach: Prioritizing the needs of patients and ensuring their well-being.</li>
+        <li>Data-Driven Decision Making: Utilizing data analytics to identify trends, optimize processes, and improve outcomes.</li>
+        <li>Continuous Improvement: Embracing a culture of continuous learning and innovation to stay ahead of industry trends.</li>
+        <li>Ethical Conduct: Adhering to the highest ethical standards and complying with all regulatory requirements.</li>
+      </ul>
+      <p>
+        With unwavering commitment to quality, efficiency, and patient care has positioned Afyatele
+        solutions as a leading provider of medical insurance administration outsourcing services. His
+        visionary leadership and expertise enables the company to achieve significant growth and success.
+      </p>
     </div>
-  );
-};
+  )
+}
 
-export default Telemedicine;
+export default About

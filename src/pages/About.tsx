@@ -1,4 +1,3 @@
-import React from 'react'
 import Boss from '../../assests/boss.jpg'
 
 function About() {
