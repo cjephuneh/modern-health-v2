@@ -82,7 +82,7 @@ const Navbar = () => {
             >
               <Link
                 to="/claims"
-                className="block px-4 py-3 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
+                className="block px-4 py-3 text-gray-700 hover:bg-gray-200 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 <Activity className="inline-block h-5 w-5 mr-2" />
@@ -90,7 +90,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/support"
-                className="block px-4 py-3 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
+                className="block px-4 py-3 text-gray-700 hover:bg-gray-200 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 <Users className="inline-block h-5 w-5 mr-2" />
@@ -98,7 +98,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/telemedicine"
-                className="block px-4 py-3 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
+                className="block px-4 py-3 text-gray-700 hover:bg-gray-200 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 <Brain className="inline-block h-5 w-5 mr-2" />
@@ -106,11 +106,19 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/hospital"
-                className="block px-4 py-3 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
+                className="block px-4 py-3 text-gray-700 hover:bg-gray-200 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 <Building2 className="inline-block h-5 w-5 mr-2" />
                 Hospital Management
+              </Link>
+              <Link
+                to="/about"
+                className="block px-4 py-3 text-gray-700 hover:bg-gray-200 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                <Building2 className="inline-block h-5 w-5 mr-2" />
+                About Us
               </Link>
             </motion.div>
           )}
