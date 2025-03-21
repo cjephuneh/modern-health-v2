@@ -38,7 +38,7 @@ const Navbar = () => {
               <span>Member Support</span>
             </Link>
             <Link
-              to="/telemedicine"
+              to="https://afyamkononi.co.ke"
               className="flex items-center space-x-1 text-gray-700 hover:bg-blue-600 p-2 rounded hover:text-white transition-colors text-sm lg:text-base"
             >
               <Brain className="h-4 w-4 lg:h-5 lg:w-5" />
