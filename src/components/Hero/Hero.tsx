@@ -26,7 +26,7 @@ const Hero = () => {
             healthcare technology.
           </p>
           
-          <div className="flex justify-center mb-12">
+          <button className="flex justify-center mb-12">
             <motion.a
               href="mailto:info@afyatele.com"
               whileHover={{ scale: 1.05 }}
@@ -35,7 +35,7 @@ const Hero = () => {
               Schedule Demo
               <ArrowRight className="h-5 w-5" />
             </motion.a>
-          </div>
+          </button>
 
           <div className="relative z-10">
             {/* <Stats /> */}
