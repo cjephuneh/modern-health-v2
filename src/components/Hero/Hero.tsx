@@ -28,7 +28,6 @@ const Hero = () => {
           
           <div className="flex justify-center mb-12">
             <motion.button
-              whileHover={{ scale: 1.05 }}
               className="bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold flex items-center justify-center gap-2 hover:bg-indigo-700 transition-colors"
               onClick={() => window.location.href = 'mailto:info@afyatele.com'}
             >
