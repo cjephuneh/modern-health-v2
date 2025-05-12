@@ -26,20 +26,15 @@ const Hero = () => {
             healthcare technology.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <motion.button
+          <div className="flex justify-center mb-12">
+            <motion.a
+              href="mailto:info@afyatele.com"
               whileHover={{ scale: 1.05 }}
               className="bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold flex items-center justify-center gap-2 hover:bg-indigo-700 transition-colors"
             >
               Schedule Demo
               <ArrowRight className="h-5 w-5" />
-            </motion.button>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              className="bg-white text-indigo-600 px-8 py-3 rounded-full font-semibold border-2 border-indigo-600 hover:bg-indigo-50 transition-colors"
-            >
-              Learn More
-            </motion.button>
+            </motion.a>
           </div>
 
           <div className="relative z-10">
