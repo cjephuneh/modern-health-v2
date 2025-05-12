@@ -26,16 +26,16 @@ const Hero = () => {
             healthcare technology.
           </p>
           
-          <button className="flex justify-center mb-12">
-            <motion.a
-              href="mailto:info@afyatele.com"
+          <div className="flex justify-center mb-12">
+            <motion.button
               whileHover={{ scale: 1.05 }}
               className="bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold flex items-center justify-center gap-2 hover:bg-indigo-700 transition-colors"
+              onClick={() => window.location.href = 'mailto:info@afyatele.com'}
             >
               Schedule Demo
               <ArrowRight className="h-5 w-5" />
-            </motion.a>
-          </button>
+            </motion.button>
+          </div>
 
           <div className="relative z-10">
             {/* <Stats /> */}
