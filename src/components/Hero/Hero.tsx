@@ -8,7 +8,8 @@ import { ArrowRight } from 'lucide-react';
 const Hero = () => {
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50">
-      <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+      {/* Add pointer-events-none here */}
+      <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 md:pt-32 pb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -27,13 +28,15 @@ const Hero = () => {
           </p>
           
           <div className="flex justify-center mb-12">
-            <button
+            <motion.button
+              whileHover={{ scale: 1.05 }}
               className="bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold flex items-center justify-center gap-2 hover:bg-indigo-700 transition-colors"
               onClick={() => window.location.href = 'mailto:info@afyatele.com'}
+              type="button"
             >
               Schedule Demo
               <ArrowRight className="h-5 w-5" />
-            </button>
+            </motion.button>
           </div>
 
           <div className="relative z-10">
